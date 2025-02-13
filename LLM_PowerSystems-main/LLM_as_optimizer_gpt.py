@@ -133,7 +133,7 @@ for i in range(300):
             "content": text,
         }
     ],
-    model="qwen2.5-1.5b-instruct",
+    model="qwen2.5-1.5b-instruct",  # 已经修改了
 )
     #print(text)
     print(chat_completion.choices[0].message.content)
